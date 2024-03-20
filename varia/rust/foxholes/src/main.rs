@@ -185,10 +185,10 @@ fn check_strategy(paths: &Vec<WPath>, strat: &Vec<u8>, verbose: Option<bool>) {
 
     println!("  >> Strategy summary for {:?}", strat);
     if winner {
-        println!("  >> This is a winning stragtegy ({} fails)", fails);
+        println!("  >> This is a winning strategy ({} fails)", fails);
         println!("  >> Average number of steps taken is {:.4} (max {})", wsteps, max);
     } else {
-        println!("  >> This is not a winning stragtegy ({} fails)", fails);
+        println!("  >> This is not a winning strategy ({} fails)", fails);
         println!("  >> Average number of steps taken is >= {:.4} (max {})", wsteps, max);
     }
     

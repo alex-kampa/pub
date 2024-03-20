@@ -1,6 +1,6 @@
 # 5 Foxholes
 
-Playing with Rust
+Playing with Rust. The current output is:
 
 ```
 --- brute force ---
@@ -41,37 +41,37 @@ Path: [5, 4, 5], Probability: 0.1
 Generated 4 paths of length 2 for 3 holes
   >> Strategy [2, 2]
   >> Strategy summary for [2, 2]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 1.6667 (max 2)
 
 --- check another strategy (5 holes, 6 days) ---
 Generated 72 paths of length 6 for 5 holes
   >> Strategy [2, 3, 4, 2, 3, 4]
   >> Strategy summary for [2, 3, 4, 2, 3, 4]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 3.5500 (max 6)
 
 --- check more strategies (5 holes, 7 days) ---
 Generated 126 paths of length 7 for 5 holes
   >> Strategy [2, 3, 4, 2, 3, 4]
   >> Strategy summary for [2, 3, 4, 2, 3, 4]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 3.5500 (max 6)
   >> Strategy [4, 2, 3, 4, 2, 3, 4]
   >> Strategy summary for [4, 2, 3, 4, 2, 3, 4]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 2.9625 (max 7)
   >> Strategy [2, 2, 3, 4, 4, 3, 2]
   >> Strategy summary for [2, 2, 3, 4, 4, 3, 2]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 2.9625 (max 7)
   >> Strategy [4, 2, 3, 4, 4, 3, 2]
   >> Strategy summary for [4, 2, 3, 4, 4, 3, 2]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 3.0375 (max 7)
   >> Strategy [2, 2, 3, 4, 2, 3, 4]
   >> Strategy summary for [2, 2, 3, 4, 2, 3, 4]
-  >> This is a winning stragtegy (0 fails)
+  >> This is a winning strategy (0 fails)
   >> Average number of steps taken is 3.0375 (max 7)
 
 --- check naive strategy (5 holes, 6 days) ---
@@ -115,14 +115,14 @@ Does not catch: [4, 5, 4, 5, 4, 3]
 Does not catch: [4, 5, 4, 5, 4, 5]
 Does not catch: [5, 4, 5, 4, 5, 4]
   >> Strategy summary for [3, 2, 3, 2, 3, 2]
-  >> This is not a winning stragtegy (37 fails)
+  >> This is not a winning strategy (37 fails)
   >> Average number of steps taken is >= 4.3000 (max 5)
 
 --- check naive strategy (5 holes, 10 days) ---
 Generated 648 paths of length 10 for 5 holes
   >> Strategy [3, 2, 3, 2, 3, 2, 3, 2, 3, 2]
   >> Strategy summary for [3, 2, 3, 2, 3, 2, 3, 2, 3, 2]
-  >> This is not a winning stragtegy (325 fails)
+  >> This is not a winning strategy (325 fails)
   >> Average number of steps taken is >= 5.9750 (max 9)
 
 --- some probabilities ---
@@ -162,5 +162,5 @@ Hole: 3, Probability: 0.3000
 Hole: 4, Probability: 0.2000
 Hole: 5, Probability: 0.1500
 
-Elapsed time: 285.68ms
+Elapsed time: 286.64ms
 ```
