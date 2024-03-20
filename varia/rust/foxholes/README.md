@@ -1,6 +1,12 @@
 # 5 Foxholes
 
-Playing with Rust. The current output is:
+Playing with Rust. The current output is given below.
+
+With 5 holes, there are 4 strategies of length 6 that guarantee a win, with the average number of steps being 71/20 = 3.55.
+
+We also find winning strategies of length 7 with a lower average number of steps: 2.9625.
+
+It remains to be verified if there are strategies with average number of steps strictly less than 2.9625 (for any number of steps).
 
 ```
 --- brute force ---
