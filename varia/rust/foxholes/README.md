@@ -9,7 +9,7 @@ We also find winning strategies of length 7 with a lower average number of steps
 It remains to be verified if there are strategies with average number of steps strictly less than 2.9625 (for any number of steps).
 
 ```
---- brute force ---
+--- brute force (5, 6) ---
 Generated 72 paths of length 6 for 5 holes
   << Strategy [2, 3, 4, 2, 3, 4] is a winner (max 6)>>
      Average number of steps taken 3.550
@@ -25,6 +25,131 @@ Generated 72 paths of length 6 for 5 holes
      Stats 1=(18)(20.000%) 2=(12)(10.000%) 3=(6)(10.000%) 4=(18)(30.000%) 5=(12)(15.000%) 6=(6)(15.000%)
 We have tested 15,625 strategies (expected "15,625")
 Total iterations 15,625 x 72 = 1,125,000
+
+--- brute force (5, 7) ---
+Generated 126 paths of length 7 for 5 holes
+  << Strategy [1, 2, 3, 4, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.750
+     Stats 1=(18)(20.000%) 2=(18)(10.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [1, 2, 3, 4, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.750
+     Stats 1=(18)(20.000%) 2=(18)(10.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [1, 4, 3, 2, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.450
+     Stats 1=(18)(20.000%) 2=(36)(30.000%) 3=(12)(5.000%) 4=(6)(5.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [1, 4, 3, 2, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.450
+     Stats 1=(18)(20.000%) 2=(36)(30.000%) 3=(12)(5.000%) 4=(6)(5.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [2, 2, 3, 4, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.037
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(12)(7.500%) 6=(10)(6.250%) 7=(5)(6.250%)
+  << Strategy [2, 2, 3, 4, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 2.962
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(15)(12.500%) 6=(8)(3.750%) 7=(4)(3.750%)
+  << Strategy [2, 3, 4, 2, 3, 4, 1] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 2, 3, 4, 2] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 2, 3, 4, 3] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 2, 3, 4, 4] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 2, 3, 4, 5] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 4, 3, 2, 1] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 4, 3, 2, 2] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 4, 3, 2, 3] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 4, 3, 2, 4] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 3, 4, 4, 3, 2, 5] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [2, 4, 3, 2, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.038
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(12)(7.500%) 6=(10)(6.250%) 7=(5)(6.250%)
+  << Strategy [2, 4, 3, 2, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 2.962
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(15)(12.500%) 6=(8)(3.750%) 7=(4)(3.750%)
+  << Strategy [3, 2, 3, 4, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.600
+     Stats 1=(36)(20.000%) 2=(18)(20.000%) 3=(12)(10.000%) 4=(6)(10.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [3, 2, 3, 4, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.600
+     Stats 1=(36)(20.000%) 2=(18)(20.000%) 3=(12)(10.000%) 4=(6)(10.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [3, 4, 3, 2, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.600
+     Stats 1=(36)(20.000%) 2=(18)(20.000%) 3=(12)(10.000%) 4=(6)(10.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [3, 4, 3, 2, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.600
+     Stats 1=(36)(20.000%) 2=(18)(20.000%) 3=(12)(10.000%) 4=(6)(10.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [4, 2, 3, 4, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 2.962
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(15)(12.500%) 6=(8)(3.750%) 7=(4)(3.750%)
+  << Strategy [4, 2, 3, 4, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.037
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(12)(7.500%) 6=(10)(6.250%) 7=(5)(6.250%)
+  << Strategy [4, 3, 2, 2, 3, 4, 1] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 2, 3, 4, 2] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 2, 3, 4, 3] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 2, 3, 4, 4] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 2, 3, 4, 5] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 4, 3, 2, 1] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 4, 3, 2, 2] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 4, 3, 2, 3] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 4, 3, 2, 4] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 3, 2, 4, 3, 2, 5] is a winner (max 6)>>
+     Average number of steps taken 3.550
+     Stats 1=(27)(20.000%) 2=(18)(10.000%) 3=(9)(10.000%) 4=(36)(30.000%) 5=(24)(15.000%) 6=(12)(15.000%) 7=(0)(0.000%)
+  << Strategy [4, 4, 3, 2, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 2.963
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(15)(12.500%) 6=(8)(3.750%) 7=(4)(3.750%)
+  << Strategy [4, 4, 3, 2, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.038
+     Stats 1=(27)(20.000%) 2=(36)(30.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(12)(7.500%) 6=(10)(6.250%) 7=(5)(6.250%)
+  << Strategy [5, 2, 3, 4, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.450
+     Stats 1=(18)(20.000%) 2=(36)(30.000%) 3=(12)(5.000%) 4=(6)(5.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [5, 2, 3, 4, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.450
+     Stats 1=(18)(20.000%) 2=(36)(30.000%) 3=(12)(5.000%) 4=(6)(5.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [5, 4, 3, 2, 2, 3, 4] is a winner (max 7)>>
+     Average number of steps taken 3.750
+     Stats 1=(18)(20.000%) 2=(18)(10.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+  << Strategy [5, 4, 3, 2, 4, 3, 2] is a winner (max 7)>>
+     Average number of steps taken 3.750
+     Stats 1=(18)(20.000%) 2=(18)(10.000%) 3=(24)(15.000%) 4=(12)(15.000%) 5=(27)(20.000%) 6=(18)(10.000%) 7=(9)(10.000%)
+We have tested 78,125 strategies (expected "78,125")
+Total iterations 78,125 x 126 = 9,843,750
 
 --- show paths (5 holes, 3 days) ---
 Generated 14 paths of length 3 for 5 holes
@@ -168,5 +293,5 @@ Hole: 3, Probability: 0.3000
 Hole: 4, Probability: 0.2000
 Hole: 5, Probability: 0.1500
 
-Elapsed time: 286.64ms
+Elapsed time: 2.86s
 ```

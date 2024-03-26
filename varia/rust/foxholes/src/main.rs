@@ -11,8 +11,11 @@ fn main() {
 
     // cycle through all possible strategies, applying all possible paths
     //
-    println!("\n--- brute force ---");
+    println!("\n--- brute force (5, 6) ---");
     brute_force(5, 6);
+
+    println!("\n--- brute force (5, 7) ---");
+    brute_force(5, 7);
 
     // show some paths
     println!("\n--- show paths (5 holes, 3 days) ---");
