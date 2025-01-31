@@ -1,6 +1,6 @@
 {
-    "name": "Yet another coin",
-    "symbol": "YASC",
-    "description": "This token is completely useless.",
-    "image": "https://raw.githubusercontent.com/NYBACHOK/solana_test/refs/heads/master/Screenshot_20240814_211344.jpg"
+    "name": "ABCD Community Token",
+    "symbol": "ABCD",
+    "description": "This is the token of the ABCD community.",
+    "image": "https://raw.githubusercontent.com/alex-kampa/pub/refs/heads/main/varia/ABCD.png"
   }
